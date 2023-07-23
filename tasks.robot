@@ -43,7 +43,6 @@ Fill the form using the data from the Excel file
     FOR    ${sales_rep}    IN    @{sales_reps}
         Fill and submit the form for one person    ${sales_rep}
     END
-
 Collect the results
     Screenshot    css:div.sales-summary    ${OUTPUT_DIR}${/}sales_summary.png
 
@@ -55,3 +54,4 @@ Export the table as a PDF
 Log out and close the browser
     Click Button    Log out
     Close Browser
+
