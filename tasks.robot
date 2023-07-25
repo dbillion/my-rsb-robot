@@ -23,4 +23,4 @@ Fill and submit the form
     Input Text    lastname    Smith
     Input Text    salesresult    123
     Select From List By Value    salestarget    10000
-    Click Button    Submit
+    Click Link    Submit    
